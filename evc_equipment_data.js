@@ -1,3 +1,6 @@
+// EVC Test Bench Equipment Data
+// Source: Updated User Data (2025-01-07)
+
 const equipmentData = [
     // FTB-01
     { bench: "FTB-01", name: "POWER SENSOR", model: "4027A10M", sn: "232401562" },
@@ -21,7 +24,7 @@ const equipmentData = [
     { bench: "FTB-02", name: "HIGH VOLTAGE PROBE", model: "P6015A", sn: "C099240" },
     { bench: "FTB-02", name: "High Voltage Passive Probe", model: "PPE6KV-A", sn: "L1123Q05088" },
     { bench: "FTB-02", name: "POWER METER", model: "4221A-20-11-0", sn: "232508446" },
-    { bench: "FTB-02", name: "POWER METER CCW 2M LF ", model: "4221A-20-11-0", sn: "" },
+    { bench: "FTB-02", name: "POWER METER CCW 2M LF ", model: "4221A-20-11-0", sn: "" }, // No S/N provided
     { bench: "FTB-02", name: "DUMMY LOADER", model: "DLW8723", sn: "DLW0005" },
     { bench: "FTB-02", name: "DUMMY LOADER", model: "DLW8723", sn: "DLW0006" },
     { bench: "FTB-02", name: "RF GENERATOR", model: "AGL-1204HG", sn: "G00270356" },
@@ -106,7 +109,7 @@ const equipmentData = [
     { bench: "ITB-03", name: "RF Network Analyzer Cal kit", model: "85515A", sn: "DE52111071" },
     { bench: "ITB-03", name: "Network Analyzer", model: "E5061B", sn: "MY49406944" },
     { bench: "ITB-03", name: "REGULATED DC POWER SUPPLY", model: "R4G650-0.1-LUs1", sn: "015185MP" },
-    { bench: "ITB-03", name: "Switch Box", model: "", sn: "#0006" },
+    { bench: "ITB-03", name: "Switch Box", model: "", sn: "#0006" }, // Missing model in source
 
     // PAT-01
     { bench: "PAT-01", name: "Power Sensor ", model: "E9304A", sn: "MY63440004" },
