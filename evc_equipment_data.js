@@ -24,7 +24,6 @@ const equipmentData = [
     { bench: "FTB-02", name: "HIGH VOLTAGE PROBE", model: "P6015A", sn: "C099240" },
     { bench: "FTB-02", name: "High Voltage Passive Probe", model: "PPE6KV-A", sn: "L1123Q05088" },
     { bench: "FTB-02", name: "POWER METER", model: "4221A-20-11-0", sn: "232508446" },
-    { bench: "FTB-02", name: "POWER METER CCW 2M LF ", model: "4221A-20-11-0", sn: "" }, // No S/N provided
     { bench: "FTB-02", name: "DUMMY LOADER", model: "DLW8723", sn: "DLW0005" },
     { bench: "FTB-02", name: "DUMMY LOADER", model: "DLW8723", sn: "DLW0006" },
     { bench: "FTB-02", name: "RF GENERATOR", model: "AGL-1204HG", sn: "G00270356" },
@@ -148,4 +147,5 @@ const equipmentData = [
     { bench: "PAT-02", name: "Dual Directional Coupler ", model: "C1460-10", sn: "133773" },
     { bench: "PAT-02", name: "Dual Directional Coupler", model: "C5091-10", sn: "133721" },
     { bench: "PAT-02", name: "Power Splitter ", model: "ZA2CS-251-20WN+", sn: "F907102329" }
+
 ];
